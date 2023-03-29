@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main_container">
+        <nav>
+            <div class="logo">
+                <img src="Hosterr Starter Files/Assets/Logo.svg" alt="logo">
+                <button class="nav_logo_btn" type="button">Hosterr in hiring!</button>
+            </div>
+            <div class="nav_links">
+                <ul>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Find Domain</a></li>
+                    <li><a href="#">Why Hosterr</a></li>
+                </ul>
+            </div>
+            <div class="sign_in">
+                <p>Sign in</p>
+                <button class="join_waitlist" type="button">Join Waitlist</button>
+            </div>
+            <span class="fa fa-bars" id="menu" aria-hidden="true"></span>
+            <!-- <img class="hamburger_menu" src="Hosterr Starter Files/Assets/Hamburger Menu.svg"> -->
+        </nav>
+        <div id="nav_bar">
+            <ul>
+                    <li><a href="#">Plans</a></li>
+                    <li><a href="#">Find Domain</a></li>
+                    <li><a href="#">Why Hosterr</a></li>
+            </ul>
+        </div>
+
+        <marquee behavior="" direction="right">Hire A web Developer</marquee>
+
+            <div class="main_section">
+                <div class="first_container">
+                    <h2>Host your website in<br>less than 5 minutes.</h2>
+                    <p>With Hosterr, get your website up and running in no les than 5
+                       minutes with the most competitive pricing packages available online
+                    </p>
+                    <div class="btn_flex">
+                        <input class="input" type="text" placeholder="Enter e-mail adress">
+                        <button class="join_waitlist_btn" type="button">Join Waitlist</button>
+                    </div>
+                    <div class="btn_flex_mobile">
+                        <input class="text_btn_flex" placeholder="Enter Email">
+                        <button class="mobile_waitlist_btn" type="button">Join Waitlist</button>
+                    </div>
+                    <div class="checkmark_paragraph">
+                        <img class="checkmark" src="Hosterr Starter Files/Assets/Checkmark.svg" alt="checkmark">
+                        <p>No spam, ever. unsubscribe anytime.</p>
+                    </div>
+                </div>
+                    <div class="second_container">
+                        <img class="first_img" src="Hosterr Starter Files/Assets/Hero Image (Model).png">
+                        <img class="second_img" src="Hosterr Starter Files/Assets/Purple Shape.svg">
+                        <img class="third_img" src="Hosterr Starter Files/Assets/Pink Shape.svg" alt="logo">
+                        <img class="fourth_img" src="Hosterr Starter Files/Assets/Blue Shape.svg">
+                    </div>
+            </div>
+            
+            <footer>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+
+                <div class="talk_to_a_specialist">    
+                    <img src="Hosterr Starter Files/Assets/Help Avatar.svg" alt="help">
+                    <div class="help_text">
+                        <p>Have any challenge?</p>
+                        <p><b>Talk to a specialist</b></p>
+                    </div>
+                </div>
+            </footer>
+    </div>
+
+    <script>
+       var menu = document.getElementById("menu")
+       var nav_bar = document.getElementById("nav_bar")
+
+       nav_bar.style.right = "-400px";
+       menu.onclick = function(){
+        if(nav_bar.style.right == "-400px"){
+            nav_bar.style.right = "0";
+        }else{
+            nav_bar.style.right = "-400px";
+        }
+    }
+    </script>
+</body>
+</html>

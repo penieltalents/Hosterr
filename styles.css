@@ -107,7 +107,6 @@ marquee{
     justify-self: flex-end;
     display: flex;
     margin-top: -40px;
-    padding-block: 30%;
 }
 
 .first_container h2{
@@ -187,7 +186,7 @@ marquee{
 }
 
 footer{
-    margin-top: 18git0px;
+    margin-top: 12%;
     display: flex;
     justify-content: space-between;
     align-items: center;

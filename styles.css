@@ -332,7 +332,8 @@ footer ul li a{
 
     .main_section{
         flex-direction: column-reverse;
-        gap: 15em;
+        /* gap: 15em; */
+        gap: 25em;
         margin-top: 300px;
     }
 

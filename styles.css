@@ -186,7 +186,7 @@ marquee{
 }
 
 footer{
-    margin-top: 250px;
+    margin-top: 180px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -261,7 +261,7 @@ footer ul li a{
         background-color: rgb(241, 224, 202);
         width: 40%;
         text-align: center;
-        height: 30vh;
+        height: 55vh;
         z-index: 10;
         transition: 1.3s;
         font-weight: 800;

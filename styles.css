@@ -342,8 +342,8 @@ footer ul li a{
     }
 
     .second_container{
-        position: relative;
-        margin-bottom: 15%;
+        /* position: relative;
+        margin-bottom: 15%; */
         width: 100%;
         justify-content: center;
         align-items: center;

@@ -334,6 +334,7 @@ footer ul li a{
         flex-direction: column-reverse;
         /* gap: 17em; */
         /* gap: 25em; */
+        justify-content: space-between;
         margin-top: 400px;
     }
 
